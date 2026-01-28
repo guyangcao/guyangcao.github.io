@@ -2,7 +2,7 @@
 title: "Robust Learning of a Group DRO Neuron"
 collection: publications
 category: conferences
-permalink: /publication/2026-01-26-robust-learning-group-dro-neuron
+permalink: /publications/2026-01-26-robust-learning-group-dro-neuron
 excerpt: "Accepted to AISTATS 2026 (Poster). We study learning a single neuron under regularized Group DRO and give an efficient algorithm with provable guarantees."
 date: 2026-01-26
 venue: "International Conference on Artificial Intelligence and Statistics (AISTATS 2026)"
