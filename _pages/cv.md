@@ -11,35 +11,23 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Computer Science, University of Wisconsin - Madison, 2024.8 - 2029.5 (expected)
+* B.S. in Computer Science, Honors Mathematics and Honors Statistics, University of Michigan - Ann Arbor, 2021.8 - 2024.5
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Summer 2025, Fall 2025: Research Assistant
+  * University of Wisconsin - Madison, Madison, WI
+  * Duties includes: Do & Learn how to do research with my supervisor on Optimization and Leanring Theory
+  * Supervisor: Prof. Jelena Diakonikolas
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Fall 2024, Spring 2025, 2026: Teaching Assistant
+  * University of Wisconsin - Madison, Madison, WI
+  * Duties included: Teaching CS 412 & CS 220, basic courses on Numerical Methods & MATLAB/Python Programming
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Summer 2023: Software Engineering Intern
+  * Amazon Web Service (AWS), Boston, MA
+  * Manager: Patrick Kenney
 
 Publications
 ======
@@ -58,7 +46,3 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
