@@ -28,17 +28,17 @@ author:
   pronouns         : "he/him/his"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Madison, WI"
-  employer         : "Red Brick University"
+  employer         : "University of Wisconsin-Madison"
   uri              : # URL
   email            : "kafka_lover@cs.wisc.edu" 
 
   # Academic websites
   academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : "http://arxiv.org/a/cao_g_1"
   googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/my-orcid?emailVerified=true&orcid=0009-0000-2781-9356"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
