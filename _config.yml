@@ -23,7 +23,7 @@ repository               : "guyangcao/guyangcao.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Guyang Cao"
   pronouns         : "he/him/his"  
   bio              : "An indoor climber learning how to learn robustly and optimally."
@@ -41,7 +41,7 @@ author:
   orcid            : "https://orcid.org/my-orcid?emailVerified=true&orcid=0009-0000-2781-9356"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
