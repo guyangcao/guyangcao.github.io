@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Indoor climbing"
+excerpt: "I am a huge fan of bouldering especially for 70-degree overhangs in the picture. <br/><img src='/images/boulderingme.jpg'>"
 collection: portfolio
 ---
 
