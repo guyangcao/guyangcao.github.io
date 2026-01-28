@@ -35,7 +35,7 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : "http://arxiv.org/a/cao_g_1"
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=EyGWlP0AAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/my-orcid?emailVerified=true&orcid=0009-0000-2781-9356"
@@ -65,8 +65,8 @@ author:
   google_plus      : # Username
   keybase          : # Username
   instagram        : # Username
-  lastfm           : # Username
-  linkedin         : # Username
+  lastfm           : optlearnclimb
+  linkedin         : "https://www.linkedin.com/in/guyang-kevin-cao-410b28205/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
