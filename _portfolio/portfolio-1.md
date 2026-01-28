@@ -1,5 +1,5 @@
 ---
-title: "Indoor climbing"
+title: "Indoor Climbing"
 excerpt: "I am a huge fan of bouldering especially for 70-degree overhangs in the picture. <br/><img src='/images/boulderingme.jpg'>"
 collection: portfolio
 ---
