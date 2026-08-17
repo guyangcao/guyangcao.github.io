@@ -7,42 +7,32 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+## Education
 
-Education
-======
-* Ph.D in Computer Science, University of Wisconsin - Madison, 2024.8 - 2029.5 (expected)
-* B.S. in Computer Science, Honors Mathematics and Honors Statistics, University of Michigan - Ann Arbor, 2021.8 - 2024.5
+- **PhD in Computer Science**, University of Wisconsin–Madison, 2024–2029 (expected)
+- **B.S. in Computer Science; Honors Mathematics and Honors Statistics**, University of Michigan–Ann Arbor, 2021–2024
 
-Work experience
-======
-* Summer 2025, Fall 2025: Research Assistant
-  * University of Wisconsin - Madison, Madison, WI
-  * Duties includes: Do & Learn how to do research with my supervisor on Optimization and Leanring Theory
-  * Supervisor: Prof. Jelena Diakonikolas
+## Experience
 
-* Fall 2024, Spring 2025, 2026: Teaching Assistant
-  * University of Wisconsin - Madison, Madison, WI
-  * Duties included: Teaching CS 412 & CS 220, basic courses on Numerical Methods & MATLAB/Python Programming
+- **Research Assistant**, University of Wisconsin–Madison — Summer–Fall 2025
+  - Research in optimization and learning theory, advised by Prof. Jelena Diakonikolas.
 
-* Summer 2023: Software Engineering Intern
-  * Amazon Web Service (AWS), Boston, MA
-  * Manager: Patrick Kenney
+- **Teaching Assistant**, University of Wisconsin–Madison — Fall 2024, Spring 2025, and 2026
+  - CS 220 (Data Science Programming I) and CS 412 (Introduction to Numerical Methods).
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+- **Software Engineering Intern**, Amazon Web Services — Summer 2023
+  - Boston, Massachusetts.
+
+## Publications
+
+{% assign sorted_publications = site.publications | sort: "date" | reverse %}
+{% for post in sorted_publications %}
+- **[{{ post.title }}]({{ post.url | relative_url }})**  
+  {{ post.authors }}. *{{ post.venue }}*.
+{% endfor %}
+
+## Teaching
+
+{% for post in site.teaching reversed %}
+- **[{{ post.title }}]({{ post.url | relative_url }})**{% if post.term %}, {{ post.term }}{% endif %}
+{% endfor %}
