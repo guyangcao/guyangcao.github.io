@@ -9,7 +9,7 @@ redirect_from:
 
 I am a PhD student in Computer Science at the University of Wisconsin–Madison, where I am fortunate to be advised by Prof. [Jelena Diakonikolas](https://www.jelena-diakonikolas.com/). My research focuses on optimization and machine learning theory, with particular interests in robust learning and learning under distribution shift. I also collaborate with Prof. [Ilias Diakonikolas](https://www.iliasdiakonikolas.org/) and other wonderful researchers.
 
-Before joining UW–Madison, I earned bachelor's degrees in Computer Science, Honors Mathematics, and Honors Statistics from the University of Michigan–Ann Arbor. There, I was advised by Prof. [Ambuj Tewari](https://www.ambujtewari.com/) and Dr. [Yash Patel](https://ypatel.io/).
+Before joining UW–Madison, I earned a B.S. in Computer Science while completing Honors Mathematics and Honors Statistics at the University of Michigan–Ann Arbor. There, I was advised by Prof. [Ambuj Tewari](https://www.ambujtewari.com/) and Dr. [Yash Patel](https://ypatel.io/).
 
 ## Outside research
 

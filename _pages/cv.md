@@ -7,12 +7,10 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 ## Education
 
 - **PhD in Computer Science**, University of Wisconsin–Madison, 2024–2029 (expected)
-- **B.S. in Computer Science, Honors Mathematics, and Honors Statistics**, University of Michigan–Ann Arbor, 2021–2024
+- **B.S. in Computer Science; Honors Mathematics and Honors Statistics**, University of Michigan–Ann Arbor, 2021–2024
 
 ## Experience
 
@@ -27,14 +25,14 @@ redirect_from:
 
 ## Publications
 
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
+{% assign sorted_publications = site.publications | sort: "date" | reverse %}
+{% for post in sorted_publications %}
+- **[{{ post.title }}]({{ post.url | relative_url }})**  
+  {{ post.authors }}. *{{ post.venue }}*.
+{% endfor %}
 
 ## Teaching
 
-<ul>
 {% for post in site.teaching reversed %}
-  <li><strong><a href="{{ post.url | relative_url }}">{{ post.title }}</a></strong>{% if post.term %}, {{ post.term }}{% endif %}</li>
+- **[{{ post.title }}]({{ post.url | relative_url }})**{% if post.term %}, {{ post.term }}{% endif %}
 {% endfor %}
-</ul>
