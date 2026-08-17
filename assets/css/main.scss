@@ -41,3 +41,53 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Site-specific refinements */
+.page__content,
+.archive {
+  line-height: 1.65;
+}
+
+.publication-card {
+  padding: 1.1rem 0 1.4rem;
+  border-bottom: 1px solid rgba(127, 127, 127, 0.22);
+}
+
+.publication-card:last-child {
+  border-bottom: 0;
+}
+
+.publication-card__title {
+  margin: 0 0 0.35rem;
+  font-size: 1.15em;
+  line-height: 1.35;
+}
+
+.publication-card__title a {
+  text-decoration: none;
+}
+
+.publication-card__authors,
+.publication-card__venue,
+.publication-card__excerpt {
+  margin: 0.25rem 0;
+}
+
+.publication-card__venue {
+  opacity: 0.78;
+}
+
+.publication-card__excerpt {
+  margin-top: 0.65rem;
+}
+
+.publication-card__links {
+  margin-top: 0.65rem;
+}
+
+.publication-card__links a {
+  display: inline-block;
+  margin-right: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+}

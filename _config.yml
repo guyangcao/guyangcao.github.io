@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Guyang Cao's Personal Website"
+title                    : "Guyang Cao"
 title_separator          : "-"
 name                     : &name "Guyang Cao"
-description              : &description "Guyang Cao's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "PhD student working on optimization and machine learning theory."
 url                      : https://guyangcao.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -28,17 +28,17 @@ author:
   pronouns         : "he/him/his"  
   bio              : "An indoor climber learning how to learn robustly and optimally."
   location         : "Madison, WI"
-  employer         : "University of Wisconsin-Madison"
+  employer         : "University of Wisconsin–Madison"
   uri              : # URL
   email            : "kafka_lover@cs.wisc.edu" 
 
   # Academic websites
   academia         : # URL
-  arxiv            : "http://arxiv.org/a/cao_g_1"
+  arxiv            : "https://arxiv.org/a/cao_g_1"
   googlescholar    : "https://scholar.google.com/citations?user=EyGWlP0AAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/my-orcid?emailVerified=true&orcid=0009-0000-2781-9356"
+  orcid            : "https://orcid.org/0009-0000-2781-9356"
   semantic         : # URL
   ssrn             : # URL
   pubmed           : # URL
@@ -51,13 +51,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "guyangcao"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -66,7 +66,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : optlearnclimb
-  linkedin         : "https://www.linkedin.com/in/guyang-kevin-cao-410b28205"
+  linkedin         : "guyang-kevin-cao-410b28205"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -95,7 +95,7 @@ publication_category:
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:
@@ -125,7 +125,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true
   path                   : # blank (default) uses feed.xml
 
 
@@ -230,9 +230,6 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -262,8 +259,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _publications
   - scope:
       path: ""
@@ -271,8 +268,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _portfolio
   - scope:
       path: ""
@@ -280,17 +277,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
-
+      share: false
+      comment: false
 
 # Sass/SCSS
 sass:

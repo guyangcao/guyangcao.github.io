@@ -1,7 +1,9 @@
 ---
 title: "Indoor Climbing"
-excerpt: "I am a huge fan of bouldering especially for 70-degree overhangs in the picture. <br/><img src='/images/boulderingme.jpg'>"
+excerpt: "Bouldering has been my favorite sport since Fall 2024, especially on steep overhangs."
 collection: portfolio
+header:
+  teaser: boulderingme.jpg
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+I started bouldering in Fall 2024 and quickly fell in love with the mix of movement, problem solving, and persistence—especially on steep overhangs.

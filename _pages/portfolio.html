@@ -1,14 +1,16 @@
 ---
 layout: archive
-title: "Portfolio"
+title: "Beyond Research"
 permalink: /portfolio/
 author_profile: true
 ---
 
+A few things I enjoy outside research.
+
 {% include base_path %}
 
-
+<div class="grid__wrapper">
 {% for post in site.portfolio %}
-  {% include archive-single.html %}
+  {% include archive-single.html type="grid" %}
 {% endfor %}
-
+</div>

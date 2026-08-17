@@ -2,6 +2,7 @@
 title: "Efficiently Learning Drifting Halfspaces with Massart Noise"
 collection: publications
 category: conferences
+authors: "Mingchen Ma, Guyang Cao, Jelena Diakonikolas, Ilias Diakonikolas"
 permalink: /publication/2026-06-09-efficiently-learning-drifting-halfspaces-massart-noise
 excerpt: "Accepted to ICML 2026. We give efficient algorithms for learning drifting margin halfspaces under Massart noise and establish statistical-computational tradeoffs."
 date: 2026-06-09
